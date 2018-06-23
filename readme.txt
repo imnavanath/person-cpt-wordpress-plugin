@@ -1,5 +1,5 @@
 === Person - Custom Post Type ===
-Contributors: Bhosale
+Contributors: Navanath Bhosale
 Requires at least: 4.4
 Tags: person custom post type, custom post type pluign, person CPT effect wordpress plugin, add person, custom post type for person
 Stable tag: 1.0.0
