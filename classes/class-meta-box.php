@@ -9,7 +9,7 @@ class meta_box {
 
     function nb_insert_meta_box()
     {
-    add_meta_box( '', 'Staff Information', array ( $this,'nb_show_meta_box' ), 'staff');
+    add_meta_box( '', 'Person Information', array ( $this,'nb_show_meta_box' ), 'person');
     }
 
     function nb_show_meta_box()

@@ -20,7 +20,7 @@ class Custom_Widget extends WP_Widget {
                 <section class="widget widget_recent_entries">
                		<h3 class="widget-title"> <?php echo esc_attr( $title ); ?></h3>
                 	<?php
-                    $args = array( 'post_type' => 'Staff',
+                    $args = array( 'post_type' => 'Person',
                                     'posts_per_page' => 3
                                 );
                     $recent_posts = wp_get_recent_posts( $args );?>
